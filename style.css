@@ -1,0 +1,30 @@
+/* Style général pour centrer le contenu */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style de la boîte de couleurs */
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 20px auto;
+    border: 2px solid #000;
+}
+
+/* Style du bouton */
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Style pour rendre le bouton plus interactif */
+#change-color-btn:hover {
+    background-color: #45a049;
+}
